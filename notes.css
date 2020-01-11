@@ -1,0 +1,41 @@
+body {
+    background-color: cornsilk;
+}
+.headers {
+    color: blueviolet; font-family: sans-serif, ; font-size: 120%;
+    margin: 5px 10px 5px 10px;
+}
+h2 
+{
+    font-family: fantasy;
+    color: forestgreen;
+    border-bottom: 5px solid black;
+}
+#PageTitle {
+    color: darkred;
+    border: 5px solid gray;
+}
+#text1 {color: darkblue}
+#text2 {color: darkred}
+#text3 {color: darkgreen}
+
+#Notes {
+    color: brown; font-size: 115%;
+}
+
+#Q1 {
+    border: 1px solid purple;
+    box-sizing: border-box;
+    height: 320px;
+    margin: 5px 3px 2px 7px;
+    padding: 5px 3px 2px;
+    width: 550px;
+}
+#Q2 {
+    border: 1px solid purple;
+    box-sizing: content-box;
+    height: 250px;
+    margin: 5px 3px 2px 7px;
+    padding: 5px 3px 2px;
+    width: 543px;
+}
