@@ -2,18 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Zakariya Jasat</title>        
+    <title>Zakariya Jasat</title> 
+    <link rel="stylesheet" href="notes.css" type="text/css">
     </head>
     <body>
-        <h2>Lab 2: 2 HTML Practice</h2>
-    <br>
-        <h3><q>Client / Server</q></h3>
-        <p>Client - Server models refers to a computer arcitecture, whereby there is a "server" that store data, and a "client" that can request that data. The model is distributed, which make the process of getting the data much faster. </p>
-        <h3><q>HTML tags</q></h3>
-        <p>HTML tags is the 'code' used in an HTML document to make it have structure. For example, using a "heading" tag to identify what part of the document is a heading. Without HTML tags, we would not have any webpages. Tags look like this: &lt; &rt;</p>
-        <h3><q>Git</q></h3>
-        <p>A "version control system" to help people track what kind of changes has happened in their documents. It is also great for helping teams to work together on a project by providing a feature to brach into different paths, then branch back to the main project</p>
-        <br>
+        <main role="main">
+        <header role="banner">
+         <div id="PageTitle">   
+        <h1><strong><u>Labs - Fullstack 1</u></strong></h1>
+            </div>
+            </header>
+                    <h2><strong><u>Lab 2: 2 HTML Practice and Notes</u></strong></h2>
 
+    <br>
+        <article> 
+            
+            <section>
+               <tag class="headers"> 
+                   <h3><q><i>Client / Server</i></q></h3>
+            </tag>
+            
+       <div id="text1">
+           <p>Client - Server models refers to a computer arcitecture, whereby there is a "server" that store data, and a "client" that can request that data. The model is distributed, which make the process of getting the data much faster. </p>
+           
+           </div>
+            </section>
+            
+            <section>
+                
+                <tag class="headers">
+                    <h3><q><i>HTML tags</i></q></h3> 
+                </tag>
+             <div id="text2">   
+        <p>HTML tags is the 'code' used in an HTML document to make it have structure. For example, using a "heading" tag to identify what part of the document is a heading. Without HTML tags, we would not have any webpages. Tags look like this: &lt; &rt;</p>
+                </div>
+                </section>
+            
+            <section> 
+                <tag class="headers">
+                <h3><q><i>Git</i></q></h3>
+                </tag>
+                <div id="text3">
+        <p>A "version control system" to help people track what kind of changes has happened in their documents. It is also great for helping teams to work together on a project by providing a feature to brach into different paths, then branch back to the main project</p>
+                </div>
+                </section>
+        
+        <br>
+</article>
+            
+            <article>
+            <section>
+            <tag id="Notes">
+                <h3><i><u>Lab 3 Notes</u></i></h3></tag>
+                   <div id="Q1">
+                       <h4>Q: Explain how to calculate width and height of an element</h4>
+                       
+                      <em>(Element: Height = 320px, Width = 550px; Content Area: Height = 311, Width = 542)</em> 
+                <p>
+                    <li>The "Height" and "Width" properties do not add borders, margins or padding, however, it udjusts the height and width of the content within them. 
+                    </li>
+                    <li>
+                    The "Height" and "Width" properties can have multiple values, including:
+                       <ol>
+                       <li>  Auto: sets it to automatic, and lets the browser decide the Height/Width. This is the default setting.</li>
+                           
+                           <li>  Length: lets you set the Height/Width through defining things like centimeters, pixels, e.t.c. </li>
+                           
+                        <li> %: adjusts the Height/Width based on a percentage.
+                           </li>
+                       <li>  initial: resests the Height/Width to its default value. 
+                           </li>
+                      <li>   inherit: the parent value of Height/Width will be used. 
+                           </li>
+                        </ol><p>
+                        
+                    </li><p>
+                
+                </p>
+                </div>
+                </section>
+                
+                <section>
+                    <div id="Q2">
+            <h4>Q: Explain how to calculate width and height of an element, using the box-model</h4>
+                  <p>
+                      <em> (Element: Height = 259, Width = 551; Content Area: Height = 250, Width = 543)</em>
+                      
+                      <li>
+                      The "box-model" in CSS refers to designs and layout. The box-model is a <i>'box'</i> that wraps around the elements in a HTML page. it consists on Margins, Borders, Padding, and the Content. 
+                      </li>
+                      <li>
+                      In order to know how Height/Width works in HTML and CSS, it is important to know how the 'box-model' works. When we set the Width in in CSS it only applies to the <b>content area</b>, but, if we want it to apply tot he entile HTML element, we must add padding, borders and margins also.</li>
+                    </p> 
+                     </div>    
+                </section>
+                
+            
+                
+                
+            </article>
+            </main>
     </body>
 </html>
