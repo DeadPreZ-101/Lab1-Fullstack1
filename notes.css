@@ -39,3 +39,18 @@ h2
     padding: 5px 3px 2px;
     width: 543px;
 }
+
+img {
+	width: 80%;
+	padding: 1em;
+    max-width: 100%; }
+
+
+#NewColumn {
+column-count: 2;
+column-gap: 2em;
+column-rule: 1px dotted;}
+
+#no-margin {
+    margin-top: 0px;
+}

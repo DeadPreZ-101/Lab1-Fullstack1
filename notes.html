@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="notes.css" type="text/css">
     </head>
     <body>
-        <main role="main">
-        <header role="banner">
+        <main>
+        <header>
          <div id="PageTitle">   
         <h1><strong><u>Labs - Fullstack 1</u></strong></h1>
             </div>
@@ -15,12 +15,11 @@
                     <h2><strong><u>Lab 2: 2 HTML Practice and Notes</u></strong></h2>
 
     <br>
-        <article> 
             
             <section>
-               <tag class="headers"> 
-                   <h3><q><i>Client / Server</i></q></h3>
-            </tag>
+      
+                   <h3 class="headers"><q><i>Client / Server</i></q></h3>
+          
             
        <div id="text1">
            <p>Client - Server models refers to a computer arcitecture, whereby there is a "server" that store data, and a "client" that can request that data. The model is distributed, which make the process of getting the data much faster. </p>
@@ -30,40 +29,41 @@
             
             <section>
                 
-                <tag class="headers">
-                    <h3><q><i>HTML tags</i></q></h3> 
-                </tag>
+    
+                    <h3 class="headers"><q><i>HTML tags</i></q></h3> 
+            
              <div id="text2">   
-        <p>HTML tags is the 'code' used in an HTML document to make it have structure. For example, using a "heading" tag to identify what part of the document is a heading. Without HTML tags, we would not have any webpages. Tags look like this: &lt; &rt;</p>
+        <p>HTML tags is the 'code' used in an HTML document to make it have structure. For example, using a "heading" tag to identify what part of the document is a heading. Without HTML tags, we would not have any webpages. Tags look like this: &lt; &gt;</p>
                 </div>
                 </section>
             
             <section> 
-                <tag class="headers">
-                <h3><q><i>Git</i></q></h3>
-                </tag>
+               
+                <h3 class="headers"><q><i>Git</i></q></h3>
+             
                 <div id="text3">
         <p>A "version control system" to help people track what kind of changes has happened in their documents. It is also great for helping teams to work together on a project by providing a feature to brach into different paths, then branch back to the main project</p>
                 </div>
                 </section>
         
         <br>
-</article>
+
             
-            <article>
+            
             <section>
-            <tag id="Notes">
-                <h3><i><u>Lab 3 Notes</u></i></h3></tag>
+            
+                <h3 id="Notes"><i><u>Lab 3 Notes</u></i></h3>
                    <div id="Q1">
                        <h4>Q: Explain how to calculate width and height of an element</h4>
                        
                       <em>(Element: Height = 320px, Width = 550px; Content Area: Height = 311, Width = 542)</em> 
                 <p>
+                    <ol>
                     <li>The "Height" and "Width" properties do not add borders, margins or padding, however, it udjusts the height and width of the content within them. 
                     </li>
                     <li>
                     The "Height" and "Width" properties can have multiple values, including:
-                       <ol>
+                       <ul>
                        <li>  Auto: sets it to automatic, and lets the browser decide the Height/Width. This is the default setting.</li>
                            
                            <li>  Length: lets you set the Height/Width through defining things like centimeters, pixels, e.t.c. </li>
@@ -74,9 +74,11 @@
                            </li>
                       <li>   inherit: the parent value of Height/Width will be used. 
                            </li>
-                        </ol><p>
+                        </ul>
+                       </ol>
+                       <p>
                         
-                    </li><p>
+                    <p>
                 
                 </p>
                 </div>
@@ -85,22 +87,51 @@
                 <section>
                     <div id="Q2">
             <h4>Q: Explain how to calculate width and height of an element, using the box-model</h4>
-                  <p>
+                
                       <em> (Element: Height = 259, Width = 551; Content Area: Height = 250, Width = 543)</em>
-                      
+                     <ol>
                       <li>
                       The "box-model" in CSS refers to designs and layout. The box-model is a <i>'box'</i> that wraps around the elements in a HTML page. it consists on Margins, Borders, Padding, and the Content. 
                       </li>
                       <li>
                       In order to know how Height/Width works in HTML and CSS, it is important to know how the 'box-model' works. When we set the Width in in CSS it only applies to the <b>content area</b>, but, if we want it to apply tot he entile HTML element, we must add padding, borders and margins also.</li>
-                    </p> 
+                        </ol>
+                    
                      </div>    
                 </section>
-                
-            
-                
-                
+        <section>
+           <h3> Lab 2.1</h3>
+            <ul>
+            <li>Coding is fun</li>
+            <li>Coding is engaging</li>
+            <li>I am becoming better at problem solving
+                <ul><li>test item</li>
+                <li>this is awesome</li>
+                <li>I did not know I could do this!!</li>
+                <li><strong>NICE</strong></li></ul></li>
+            </ul>
+            <div id="NewColumn">            
+            <h4 id='no-margin'>BITCOIN</h4>
+            <p> Bitcoin (₿) is a cryptocurrency. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.
+                </p>
+          
+            <h4> BLOCKCHAIN</h4>
+                <p>
+                A blockchain, originally block chain, is a growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree).
+                </p>
+            </div>
+                </section>        
+      <article>
+          <h4><u><b>The Position Attribute</b></u></h4>
+          <ol>
+          <li>What does position absolute do?
+              <ul><li>Absolute positioning means the element will be relative to its nearest 'ancestor'. If there is no ancestor, then it will use the page's body and move with scrolling.</li></ul></li>
+              <li>What does position realtive do?<ul><li>When this is used - the element in question's position changes to become relative to its default/normal position. We can set attributes like top, right, bottom and left to chnage the postion to reflect new position away from its usual place. </li></ul></li>
+              <li>What does position fixed do?<ul>
+                  <li>Elements which are 'fixed' makes those elements always stay in the smae place, even if the page is scrolled. There are top, right, bottom, and left options that can be applied to move the element around. </li></ul></li>
+          </ol>
             </article>
+            
             </main>
     </body>
 </html>
