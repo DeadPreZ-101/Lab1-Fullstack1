@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Week 2.2 Lab: Forms</title>
+    </head>
+    <body>
+        <h3>Search Google!</h3>
+        <form method="get" action="http://www.google.com/search">
+            <label for="q"
+                >Do you want to search for things about Star Wars?</label
+            >
+            <input id="q" type="search" name="q" />
+            <input
+                type="submit"
+                name="submit"
+                id="search"
+                value="Search for SW !!!"
+            />
+            <br />
+            <br />
+        </form>
+        <form>
+            <label>
+                What is your name?
+                <input type="text" name="whats-your-name" />
+            </label>
+            <br />
+            <br />
+            <label> Radio Buttons!</label>
+
+            <div>
+                <label
+                    >Yes
+                    <input type="radio" name="question2" value="Yes!" />
+                </label>
+                <label
+                    >No
+                    <input type="radio" name="question2" value="No!" />
+                </label>
+                <label
+                    >Maybe
+                    <input type="radio" name="question2" value="Maybe!" />
+                </label>
+            </div>
+            <br />
+            <br />
+            <select>
+                <option value="chocolate"> Chocolate!</option>
+                <option value="vanilla"> Vanilla!</option>
+                <option value="strawberry"> Strawberry!</option>
+            </select>
+            <br />
+            <br />
+        </form>
+        <form>
+            <input
+                id="password"
+                type="password"
+                name="super-secret-password"
+                required
+            />
+            <label for="password">Type your password here</label>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
